@@ -56,7 +56,7 @@ For each (T, P) pair, the model computes kinetic and equilibrium limits and dete
 **Key Insight:**  
 Reactor optimization requires navigating a trade-off surface rather than selecting a single operating condition.
 
-**Stack:** Python, Numpy, Matplotlib
+**Stack:** Python, NumPy, Matplotlib
 
 <p align="center">
 <img src="Assets/Temperature-Pressure-Conversion-Map.png" width="650"></p>
