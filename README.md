@@ -28,11 +28,11 @@ The model calculates kinetic conversion across a temperature range and overlays 
 **Key Result:**  
 Maximum theoretical conversion: 88.6% at ~745 K  
 
+**Stack:** Wolfram Mathematica
+
 <p align="center">
 <img src="Assets/Efficiency-Plot-1.jpeg" width="650">
 <img src="Assets/Efficiency-Plot-2.jpeg" width="650"></p>
-
-**Stack:** Wolfram Mathematica
 
 **Technical Note:** A formal write-up of the modeling assumptions, derivations, and results is available in Technical-Note.tex  
 This document provides a deeper treatment of the reaction kinetics, thermodynamic constraints, and modeling framework used in this repository.
@@ -56,7 +56,7 @@ For each (T, P) pair, the model computes kinetic and equilibrium limits and dete
 **Key Insight:**  
 Reactor optimization requires navigating a trade-off surface rather than selecting a single operating condition.
 
+**Stack:** Python, Numpy, Matplotlib
+
 <p align="center">
 <img src="Assets/Temperature-Pressure-Conversion-Map.png" width="650"></p>
-
-**Stack:** Python, Numpy, Matplotlib
